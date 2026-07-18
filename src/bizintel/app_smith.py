@@ -395,6 +395,19 @@ def main() -> None:
         palette="Purples_d",
     )
 
+    # Save the payment-method chart.
+    images_folder = Path("docs/images")
+    images_folder.mkdir(parents=True, exist_ok=True)
+
+    figure_3_path = images_folder / "Figure_3.png"
+    plt.savefig(
+        figure_3_path,
+        dpi=300,
+        bbox_inches="tight",
+    )
+
+    LOG.info(f"Saved chart to: {figure_3_path.resolve()}")
+
     LOG.info("CALL a function to summarize the datasets........")
     summarize(df_customers, df_products, df_sales)
 

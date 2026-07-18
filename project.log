@@ -1327,3 +1327,528 @@ max          2400.00     1199.00    2099.00   404.00        3.00     4993.88    
 2026-07-17 23:15:10 | INFO | BI | We will clean data later.
 2026-07-17 23:15:10 | INFO | BI | ========================
 2026-07-17 23:15:10 | INFO | BI | CALL a function to show charts........
+2026-07-17 23:58:20 | INFO | BI | === RUN START ===
+2026-07-17 23:58:20 | INFO | BI | project=BI
+2026-07-17 23:58:20 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-17 23:58:20 | INFO | BI | python=3.14.6
+2026-07-17 23:58:20 | INFO | BI | os=Darwin 25.5.0
+2026-07-17 23:58:20 | INFO | BI | shell=zsh
+2026-07-17 23:58:20 | INFO | BI | cwd=.
+2026-07-17 23:58:20 | INFO | BI | github_actions=False
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | START main()
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | Raw data:  = data/raw
+2026-07-17 23:58:20 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-17 23:58:20 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-17 23:58:20 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-17 23:58:20 | INFO | BI | CALL a function to load each dataset.............
+2026-07-17 23:58:20 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-17 23:58:20 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-17 23:58:20 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-17 23:58:20 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-17 23:58:20 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-17 23:58:20 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-17 23:58:20 | INFO | BI | CALL a function to get sales by region........
+2026-07-17 23:58:20 | INFO | BI | Aggregating sales by region
+2026-07-17 23:58:20 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-17 23:58:20 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-17 23:58:20 | INFO | BI | CALL a function to plot sales by region........
+2026-07-17 23:58:20 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-17 23:58:20 | INFO | BI | CALL a function to get sales by product category........
+2026-07-17 23:58:20 | INFO | BI | Aggregating sales by product category
+2026-07-17 23:58:20 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-17 23:58:20 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-17 23:58:20 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-17 23:58:20 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-17 23:58:20 | INFO | BI | Aggregating sales by payment method
+2026-07-17 23:58:20 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-17 23:58:20 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-17 23:58:20 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-17 23:58:20 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-17 23:58:20 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | SUMMARY
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-17 23:58:20 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-17 23:58:20 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | ANALYST NOTES:
+2026-07-17 23:58:20 | INFO | BI | Note any data quality issues.
+2026-07-17 23:58:20 | INFO | BI | We will clean data later.
+2026-07-17 23:58:20 | INFO | BI | ========================
+2026-07-17 23:58:20 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:00:09 | INFO | BI | === RUN START ===
+2026-07-18 00:00:09 | INFO | BI | project=BI
+2026-07-18 00:00:09 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:00:09 | INFO | BI | python=3.14.6
+2026-07-18 00:00:09 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:00:09 | INFO | BI | shell=zsh
+2026-07-18 00:00:09 | INFO | BI | cwd=.
+2026-07-18 00:00:09 | INFO | BI | github_actions=False
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | START main()
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | Raw data:  = data/raw
+2026-07-18 00:00:09 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-18 00:00:09 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-18 00:00:09 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-18 00:00:09 | INFO | BI | CALL a function to load each dataset.............
+2026-07-18 00:00:09 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:00:09 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:00:09 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:00:09 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:00:09 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:00:09 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:00:09 | INFO | BI | CALL a function to get sales by region........
+2026-07-18 00:00:09 | INFO | BI | Aggregating sales by region
+2026-07-18 00:00:09 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-18 00:00:09 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-18 00:00:09 | INFO | BI | CALL a function to plot sales by region........
+2026-07-18 00:00:09 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-18 00:00:09 | INFO | BI | CALL a function to get sales by product category........
+2026-07-18 00:00:09 | INFO | BI | Aggregating sales by product category
+2026-07-18 00:00:09 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-18 00:00:09 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-18 00:00:09 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-18 00:00:09 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-18 00:00:09 | INFO | BI | Aggregating sales by payment method
+2026-07-18 00:00:09 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-18 00:00:09 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-18 00:00:09 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-18 00:00:09 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-18 00:00:09 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | SUMMARY
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-18 00:00:09 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-18 00:00:09 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | ANALYST NOTES:
+2026-07-18 00:00:09 | INFO | BI | Note any data quality issues.
+2026-07-18 00:00:09 | INFO | BI | We will clean data later.
+2026-07-18 00:00:09 | INFO | BI | ========================
+2026-07-18 00:00:09 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:00:56 | INFO | BI | === RUN START ===
+2026-07-18 00:00:56 | INFO | BI | project=BI
+2026-07-18 00:00:56 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:00:56 | INFO | BI | python=3.14.6
+2026-07-18 00:00:56 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:00:56 | INFO | BI | shell=zsh
+2026-07-18 00:00:56 | INFO | BI | cwd=.
+2026-07-18 00:00:56 | INFO | BI | github_actions=False
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | START main()
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | Raw data:  = data/raw
+2026-07-18 00:00:56 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-18 00:00:56 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-18 00:00:56 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-18 00:00:56 | INFO | BI | CALL a function to load each dataset.............
+2026-07-18 00:00:56 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:00:56 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:00:56 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:00:56 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:00:56 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:00:56 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:00:56 | INFO | BI | CALL a function to get sales by region........
+2026-07-18 00:00:56 | INFO | BI | Aggregating sales by region
+2026-07-18 00:00:56 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-18 00:00:56 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-18 00:00:56 | INFO | BI | CALL a function to plot sales by region........
+2026-07-18 00:00:56 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-18 00:00:56 | INFO | BI | CALL a function to get sales by product category........
+2026-07-18 00:00:56 | INFO | BI | Aggregating sales by product category
+2026-07-18 00:00:56 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-18 00:00:56 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-18 00:00:56 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-18 00:00:56 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-18 00:00:56 | INFO | BI | Aggregating sales by payment method
+2026-07-18 00:00:56 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-18 00:00:56 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-18 00:00:56 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-18 00:00:56 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-18 00:00:56 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | SUMMARY
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-18 00:00:56 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-18 00:00:56 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | ANALYST NOTES:
+2026-07-18 00:00:56 | INFO | BI | Note any data quality issues.
+2026-07-18 00:00:56 | INFO | BI | We will clean data later.
+2026-07-18 00:00:56 | INFO | BI | ========================
+2026-07-18 00:00:56 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:12:49 | INFO | BI | === RUN START ===
+2026-07-18 00:12:49 | INFO | BI | project=BI
+2026-07-18 00:12:49 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:12:49 | INFO | BI | python=3.14.6
+2026-07-18 00:12:49 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:12:49 | INFO | BI | shell=zsh
+2026-07-18 00:12:49 | INFO | BI | cwd=.
+2026-07-18 00:12:49 | INFO | BI | github_actions=False
+2026-07-18 00:12:49 | INFO | BI | ========================
+2026-07-18 00:12:49 | INFO | BI | START main()
+2026-07-18 00:12:49 | INFO | BI | ========================
+2026-07-18 00:12:49 | INFO | BI | Raw data:      = data/raw
+2026-07-18 00:12:49 | INFO | BI | Prepared data: = data/prepared
+2026-07-18 00:12:49 | INFO | BI | Task 1. LOAD. Call a function to load each dataset......
+2026-07-18 00:12:49 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:12:49 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:12:49 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:12:49 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:12:49 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:12:49 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:12:49 | INFO | BI | Task 2. INSPECT. Call a function to inspect each dataset...
+2026-07-18 00:12:49 | INFO | BI | Inspecting customers
+2026-07-18 00:12:49 | INFO | BI |   Columns: ['CustomerID', 'Name', 'Region', 'JoinDate', 'LoyaltyPointsPts', 'CustomerTier']
+2026-07-18 00:12:49 | INFO | BI |   Shape:   201 rows x 6 columns
+2026-07-18 00:12:49 | DEBUG | BI | 
+   CustomerID           Name   Region JoinDate  LoyaltyPointsPts CustomerTier
+0        1000   Robert Gomez     West  2/25/24               878         Gold
+1        1001     John Silva     East  12/1/20               250       Silver
+2        1002  Mark Marshall  Central   8/8/20              1414     Platinum
+3        1003  David Brennan    North  5/21/20               691         Gold
+4        1004  Kerry Collins    North  9/12/23               459       Silver
+
+2026-07-18 00:12:49 | INFO | BI | Inspecting products
+2026-07-18 00:12:49 | INFO | BI |   Columns: ['ProductID', 'ProductName', 'Category', 'UnitPrice', 'StockQuantityUnits', 'Supplier']
+2026-07-18 00:12:49 | INFO | BI |   Shape:   100 rows x 6 columns
+2026-07-18 00:12:49 | DEBUG | BI | 
+   ProductID           ProductName     Category  UnitPrice  StockQuantityUnits      Supplier
+0       2000    Electronics-Signal  Electronics     969.31                 187    TechSource
+1       2001     Electronics-Boost  Electronics     412.35                  21     PrimeTech
+2       2002         Office-Family       Office     866.00                 159  GlobalSupply
+3       2003  Electronics-Training  Electronics     385.18                 123     PrimeTech
+4       2004          Office-Where       Office     927.25                 112   EliteSupply
+
+2026-07-18 00:12:49 | INFO | BI | Inspecting sales
+2026-07-18 00:12:49 | INFO | BI |   Columns: ['TransactionID', 'SaleDate', 'CustomerID', 'ProductID', 'StoreID', 'CampaignID', 'SaleAmount', 'DiscountPercentPct', 'PaymentMethod']
+2026-07-18 00:12:49 | INFO | BI |   Shape:   2400 rows x 9 columns
+2026-07-18 00:12:49 | DEBUG | BI | 
+   TransactionID  SaleDate  CustomerID  ProductID  StoreID  CampaignID SaleAmount  DiscountPercentPct PaymentMethod
+0              1    1/9/25        1020       2023      401         0.0     643.02                  15     DebitCard
+1              2   7/10/24        1034       2091      404         2.0     529.24                  19     DebitCard
+2              3   3/22/25        1087       2035      403         3.0    4313.72                  11    CreditCard
+3              4  12/27/24        1186       2015      404         NaN    1275.85                  19    CreditCard
+4              5   4/21/25        1049       2005      402         0.0    1739.64                  15    CreditCard
+
+2026-07-18 00:12:49 | INFO | BI | Task 3. CHECK QUALITY BEFORE........
+2026-07-18 00:12:49 | INFO | BI | Quality check: customers
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 0
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Quality check: products
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 0
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Quality check: sales
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 193
+2026-07-18 00:12:49 | WARNING | BI |   Missing by column:
+CampaignID    193
+dtype: int64
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Task 4. SUMMARIZE BEFORE.......... 
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: customers
+2026-07-18 00:12:49 | INFO | BI | 
+       CustomerID  LoyaltyPointsPts
+count      201.00            201.00
+mean      1099.03            770.54
+std         58.12            425.53
+min       1000.00             50.00
+25%       1049.00            395.00
+50%       1099.00            765.00
+75%       1149.00           1144.00
+max       1199.00           1494.00
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: products
+2026-07-18 00:12:49 | INFO | BI | 
+       ProductID  UnitPrice  StockQuantityUnits
+count     100.00     100.00              100.00
+mean     2049.50     507.77              119.60
+std        29.01     290.80               67.45
+min      2000.00      13.51                5.00
+25%      2024.75     255.53               64.00
+50%      2049.50     496.39              108.00
+75%      2074.25     771.28              172.00
+max      2099.00     976.44              246.00
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: sales
+2026-07-18 00:12:49 | INFO | BI | 
+       TransactionID  CustomerID  ProductID  StoreID  CampaignID  DiscountPercentPct
+count        2400.00     2400.00    2400.00  2400.00     2207.00             2400.00
+mean         1200.50     1086.75    2049.07   402.53        1.46               12.41
+std           692.96       57.32      28.67     1.13        1.12                7.61
+min             1.00     1000.00    2000.00   401.00        0.00                0.00
+25%           600.75     1034.00    2023.00   402.00        0.00                6.00
+50%          1200.50     1079.00    2046.00   403.00        1.00               12.00
+75%          1800.25     1132.00    2074.00   404.00        2.00               19.00
+max          2400.00     1199.00    2099.00   404.00        3.00               25.00
+2026-07-18 00:12:49 | INFO | BI | Task 5. PREPARE DATASETS.........
+2026-07-18 00:12:49 | INFO | BI | Preparing customers data
+2026-07-18 00:12:49 | INFO | BI | Customers Prep 1. Normalize Region values
+2026-07-18 00:12:49 | INFO | BI |   Regions after normalization: ['Central', 'East', 'North', 'South', 'South-West', 'West']
+2026-07-18 00:12:49 | INFO | BI | Customers Prep 2. Remove duplicate rows
+2026-07-18 00:12:49 | INFO | BI |   Rows before: 201
+2026-07-18 00:12:49 | INFO | BI |   Rows after: 201
+2026-07-18 00:12:49 | INFO | BI |   Removed 0 duplicate row(s)
+2026-07-18 00:12:49 | INFO | BI |   Customers prepared: 201 rows
+2026-07-18 00:12:49 | INFO | BI | Preparing products data
+2026-07-18 00:12:49 | INFO | BI | Products Prep 1. Convert UnitPrice to numeric
+2026-07-18 00:12:49 | INFO | BI |   Non-numeric prices replaced with NaN: 0
+2026-07-18 00:12:49 | INFO | BI | Products Prep 2. Remove duplicate rows
+2026-07-18 00:12:49 | INFO | BI |   Rows before: 100
+2026-07-18 00:12:49 | INFO | BI |   Rows after: 100
+2026-07-18 00:12:49 | INFO | BI |   Removed 0 duplicate row(s)
+2026-07-18 00:12:49 | INFO | BI |   Products prepared: 100 rows
+2026-07-18 00:12:49 | INFO | BI | Preparing sales data
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 1. Convert SaleDate to datetime
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 2. Convert SaleAmount to numeric
+2026-07-18 00:12:49 | WARNING | BI |   8 row(s) with invalid SaleAmount - will be removed
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 3. Remove rows with missing date or amount
+2026-07-18 00:12:49 | INFO | BI |   Rows before: 2400
+2026-07-18 00:12:49 | INFO | BI |   Rows after: 2392
+2026-07-18 00:12:49 | INFO | BI |   Removed 8 row(s) with missing date or amount
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 4. Check CustomerID foreign key integrity
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 5. Check ProductID foreign key integrity
+2026-07-18 00:12:49 | INFO | BI | Sales Prep 6. Remove duplicate rows
+2026-07-18 00:12:49 | INFO | BI |   Rows before: 2392
+2026-07-18 00:12:49 | INFO | BI |   Rows after: 2392
+2026-07-18 00:12:49 | INFO | BI |   Removed 0 duplicate row(s)
+2026-07-18 00:12:49 | INFO | BI |   Sales prepared: 2392 rows
+2026-07-18 00:12:49 | INFO | BI | Task 6. CHECK QUALITY AFTER PREPARATION........
+2026-07-18 00:12:49 | INFO | BI | Quality check: customers prepared
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 0
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Quality check: products prepared
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 0
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Quality check: sales prepared
+2026-07-18 00:12:49 | INFO | BI |   Total missing values: 193
+2026-07-18 00:12:49 | WARNING | BI |   Missing by column:
+CampaignID    193
+dtype: int64
+2026-07-18 00:12:49 | INFO | BI |   Duplicate rows: 0
+2026-07-18 00:12:49 | INFO | BI | Task 7. SUMMARIZE AFTER PREPARATION........
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: customers prepared
+2026-07-18 00:12:49 | INFO | BI | 
+       CustomerID  LoyaltyPointsPts
+count      201.00            201.00
+mean      1099.03            770.54
+std         58.12            425.53
+min       1000.00             50.00
+25%       1049.00            395.00
+50%       1099.00            765.00
+75%       1149.00           1144.00
+max       1199.00           1494.00
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: products prepared
+2026-07-18 00:12:49 | INFO | BI | 
+       ProductID  UnitPrice  StockQuantityUnits
+count     100.00     100.00              100.00
+mean     2049.50     507.77              119.60
+std        29.01     290.80               67.45
+min      2000.00      13.51                5.00
+25%      2024.75     255.53               64.00
+50%      2049.50     496.39              108.00
+75%      2074.25     771.28              172.00
+max      2099.00     976.44              246.00
+2026-07-18 00:12:49 | INFO | BI | Numeric summary: sales prepared
+2026-07-18 00:12:49 | INFO | BI | 
+       TransactionID  CustomerID  ProductID  StoreID  CampaignID  SaleAmount  DiscountPercentPct
+count        2392.00     2392.00    2392.00  2392.00     2199.00     2392.00             2392.00
+mean         1199.03     1086.63    2049.09   402.53        1.46     1535.70               12.39
+std           692.43       57.30      28.68     1.12        1.12     1270.88                7.61
+min             1.00     1000.00    2000.00   401.00        0.00        0.00                0.00
+25%           600.75     1034.00    2023.00   402.00        0.00      593.15                6.00
+50%          1198.50     1079.00    2046.00   403.00        1.00     1240.37               12.00
+75%          1798.25     1131.25    2074.00   404.00        2.00     1923.22               19.00
+max          2400.00     1199.00    2099.00   404.00        3.00     4993.88               25.00
+2026-07-18 00:12:49 | INFO | BI | Task 8. SAVE PREPARED DATASETS........
+2026-07-18 00:12:49 | INFO | BI | Saved customers
+2026-07-18 00:12:49 | INFO | BI |   Rows: 201
+2026-07-18 00:12:49 | INFO | BI |   Path: data/prepared/customers_data_prepared.csv
+2026-07-18 00:12:49 | INFO | BI | Saved products
+2026-07-18 00:12:49 | INFO | BI |   Rows: 100
+2026-07-18 00:12:49 | INFO | BI |   Path: data/prepared/products_data_prepared.csv
+2026-07-18 00:12:49 | INFO | BI | Saved sales
+2026-07-18 00:12:49 | INFO | BI |   Rows: 2392
+2026-07-18 00:12:49 | INFO | BI |   Path: data/prepared/sales_data_prepared.csv
+2026-07-18 00:12:49 | INFO | BI | Workflow complete
+2026-07-18 00:12:49 | INFO | BI | ========================
+2026-07-18 00:12:49 | INFO | BI | Executed successfully!
+2026-07-18 00:12:49 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | === RUN START ===
+2026-07-18 00:18:25 | INFO | BI | project=BI
+2026-07-18 00:18:25 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:18:25 | INFO | BI | python=3.14.6
+2026-07-18 00:18:25 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:18:25 | INFO | BI | shell=zsh
+2026-07-18 00:18:25 | INFO | BI | cwd=.
+2026-07-18 00:18:25 | INFO | BI | github_actions=False
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | START main()
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | Raw data:  = data/raw
+2026-07-18 00:18:25 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-18 00:18:25 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-18 00:18:25 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-18 00:18:25 | INFO | BI | CALL a function to load each dataset.............
+2026-07-18 00:18:25 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:18:25 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:18:25 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:18:25 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:18:25 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:18:25 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:18:25 | INFO | BI | CALL a function to get sales by region........
+2026-07-18 00:18:25 | INFO | BI | Aggregating sales by region
+2026-07-18 00:18:25 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-18 00:18:25 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-18 00:18:25 | INFO | BI | CALL a function to plot sales by region........
+2026-07-18 00:18:25 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-18 00:18:25 | INFO | BI | CALL a function to get sales by product category........
+2026-07-18 00:18:25 | INFO | BI | Aggregating sales by product category
+2026-07-18 00:18:25 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-18 00:18:25 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-18 00:18:25 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-18 00:18:25 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-18 00:18:25 | INFO | BI | Aggregating sales by payment method
+2026-07-18 00:18:25 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-18 00:18:25 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-18 00:18:25 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-18 00:18:25 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-18 00:18:25 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | SUMMARY
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-18 00:18:25 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-18 00:18:25 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | ANALYST NOTES:
+2026-07-18 00:18:25 | INFO | BI | Note any data quality issues.
+2026-07-18 00:18:25 | INFO | BI | We will clean data later.
+2026-07-18 00:18:25 | INFO | BI | ========================
+2026-07-18 00:18:25 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:19:31 | INFO | BI | Workflow complete
+2026-07-18 00:19:31 | INFO | BI | CLOSE chart windows to continue.
+2026-07-18 00:19:31 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-07-18 00:19:31 | INFO | BI | ========================
+2026-07-18 00:19:31 | INFO | BI | Executed successfully!
+2026-07-18 00:19:31 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | === RUN START ===
+2026-07-18 00:22:17 | INFO | BI | project=BI
+2026-07-18 00:22:17 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:22:17 | INFO | BI | python=3.14.6
+2026-07-18 00:22:17 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:22:17 | INFO | BI | shell=zsh
+2026-07-18 00:22:17 | INFO | BI | cwd=.
+2026-07-18 00:22:17 | INFO | BI | github_actions=False
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | START main()
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | Raw data:  = data/raw
+2026-07-18 00:22:17 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-18 00:22:17 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-18 00:22:17 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-18 00:22:17 | INFO | BI | CALL a function to load each dataset.............
+2026-07-18 00:22:17 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:22:17 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:22:17 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:22:17 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:22:17 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:22:17 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:22:17 | INFO | BI | CALL a function to get sales by region........
+2026-07-18 00:22:17 | INFO | BI | Aggregating sales by region
+2026-07-18 00:22:17 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-18 00:22:17 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-18 00:22:17 | INFO | BI | CALL a function to plot sales by region........
+2026-07-18 00:22:17 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-18 00:22:17 | INFO | BI | CALL a function to get sales by product category........
+2026-07-18 00:22:17 | INFO | BI | Aggregating sales by product category
+2026-07-18 00:22:17 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-18 00:22:17 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-18 00:22:17 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-18 00:22:17 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-18 00:22:17 | INFO | BI | Aggregating sales by payment method
+2026-07-18 00:22:17 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-18 00:22:17 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-18 00:22:17 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-18 00:22:17 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-18 00:22:17 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | SUMMARY
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-18 00:22:17 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-18 00:22:17 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | ANALYST NOTES:
+2026-07-18 00:22:17 | INFO | BI | Note any data quality issues.
+2026-07-18 00:22:17 | INFO | BI | We will clean data later.
+2026-07-18 00:22:17 | INFO | BI | ========================
+2026-07-18 00:22:17 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:22:21 | INFO | BI | Workflow complete
+2026-07-18 00:22:21 | INFO | BI | CLOSE chart windows to continue.
+2026-07-18 00:22:21 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-07-18 00:22:21 | INFO | BI | ========================
+2026-07-18 00:22:21 | INFO | BI | Executed successfully!
+2026-07-18 00:22:21 | INFO | BI | ========================
+2026-07-18 00:24:32 | INFO | BI | === RUN START ===
+2026-07-18 00:24:32 | INFO | BI | project=BI
+2026-07-18 00:24:32 | INFO | BI | repo_dir=Bintel-03-cleaning
+2026-07-18 00:24:32 | INFO | BI | python=3.14.6
+2026-07-18 00:24:32 | INFO | BI | os=Darwin 25.5.0
+2026-07-18 00:24:32 | INFO | BI | shell=zsh
+2026-07-18 00:24:32 | INFO | BI | cwd=.
+2026-07-18 00:24:32 | INFO | BI | github_actions=False
+2026-07-18 00:24:32 | INFO | BI | ========================
+2026-07-18 00:24:32 | INFO | BI | START main()
+2026-07-18 00:24:32 | INFO | BI | ========================
+2026-07-18 00:24:32 | INFO | BI | Raw data:  = data/raw
+2026-07-18 00:24:32 | INFO | BI | Customers: = data/raw/customers_data.csv
+2026-07-18 00:24:32 | INFO | BI | Products:  = data/raw/products_data.csv
+2026-07-18 00:24:32 | INFO | BI | Sales:     = data/raw/sales_data.csv
+2026-07-18 00:24:32 | INFO | BI | CALL a function to load each dataset.............
+2026-07-18 00:24:32 | INFO | BI | Loading customers from data/raw/customers_data.csv
+2026-07-18 00:24:32 | INFO | BI | Loaded: 201 rows, 6 columns
+2026-07-18 00:24:32 | INFO | BI | Loading products from data/raw/products_data.csv
+2026-07-18 00:24:32 | INFO | BI | Loaded: 100 rows, 6 columns
+2026-07-18 00:24:32 | INFO | BI | Loading sales from data/raw/sales_data.csv
+2026-07-18 00:24:32 | INFO | BI | Loaded: 2400 rows, 9 columns
+2026-07-18 00:24:32 | INFO | BI | CALL a function to get sales by region........
+2026-07-18 00:24:32 | INFO | BI | Aggregating sales by region
+2026-07-18 00:24:32 | INFO | BI |   Top region: East ($1,234,686.51)
+2026-07-18 00:24:32 | INFO | BI | Returning DataFrame with total sales by region
+2026-07-18 00:24:32 | INFO | BI | CALL a function to plot sales by region........
+2026-07-18 00:24:32 | INFO | BI | Creating chart: Total Sales by Region
+2026-07-18 00:24:32 | INFO | BI | CALL a function to get sales by product category........
+2026-07-18 00:24:32 | INFO | BI | Aggregating sales by product category
+2026-07-18 00:24:32 | INFO | BI |   Top category: Office ($1,420,376.39)
+2026-07-18 00:24:32 | INFO | BI | CALL a function to plot sales by product category........
+2026-07-18 00:24:32 | INFO | BI | Creating chart: Total Sales by Product Category
+2026-07-18 00:24:32 | INFO | BI | CALL a function to get sales by payment method........
+2026-07-18 00:24:32 | INFO | BI | Aggregating sales by payment method
+2026-07-18 00:24:32 | INFO | BI |   Top payment method: Creditcard ($1,143,317.00)
+2026-07-18 00:24:32 | INFO | BI | Returning DataFrame with total sales by payment method
+2026-07-18 00:24:32 | INFO | BI | CALL a function to plot sales by payment method........
+2026-07-18 00:24:32 | INFO | BI | Creating chart: Total Sales by Payment Method
+2026-07-18 00:24:33 | INFO | BI | Saved chart to: /Users/brandonsmith/Repos/Bintel-03-cleaning/docs/images/Figure_3.png
+2026-07-18 00:24:33 | INFO | BI | CALL a function to summarize the datasets........
+2026-07-18 00:24:33 | INFO | BI | ========================
+2026-07-18 00:24:33 | INFO | BI | SUMMARY
+2026-07-18 00:24:33 | INFO | BI | ========================
+2026-07-18 00:24:33 | INFO | BI | Customers:  201 rows, 6 columns
+2026-07-18 00:24:33 | INFO | BI | Products:   100 rows, 6 columns
+2026-07-18 00:24:33 | INFO | BI | Sales:      2400 rows, 9 columns
+2026-07-18 00:24:33 | INFO | BI | ========================
+2026-07-18 00:24:33 | INFO | BI | ANALYST NOTES:
+2026-07-18 00:24:33 | INFO | BI | Note any data quality issues.
+2026-07-18 00:24:33 | INFO | BI | We will clean data later.
+2026-07-18 00:24:33 | INFO | BI | ========================
+2026-07-18 00:24:33 | INFO | BI | CALL a function to show charts........
+2026-07-18 00:24:57 | INFO | BI | Workflow complete
+2026-07-18 00:24:57 | INFO | BI | CLOSE chart windows to continue.
+2026-07-18 00:24:57 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-07-18 00:24:57 | INFO | BI | ========================
+2026-07-18 00:24:57 | INFO | BI | Executed successfully!
+2026-07-18 00:24:57 | INFO | BI | ========================
