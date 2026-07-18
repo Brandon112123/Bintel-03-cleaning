@@ -78,7 +78,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/bintel-03-cleaning
+git clone https://github.com/Brandon112123/bintel-03-cleaning
 
 cd bintel-03-cleaning
 code .
@@ -109,6 +109,12 @@ uv run python -m bizintel.app_case
 
 # run the example module to explore cleaning
 uv run python -m bizintel.data_prep_case
+
+# small change run command enviorment
+uv run python -m bizintel.app_smith
+
+# small change run command project
+uv run python -m bizintel.data_prep_smith
 
 # run common chores
 uv run ruff format .
@@ -179,7 +185,25 @@ max          2400.00     1199.00    2099.00   404.00        3.00     4993.88
 | INFO | BI | ========================
 | INFO | BI | Executed successfully!
 ```
+## Phase 4 Technical Modification
 
+### What I Changed
+
+For Phase 4, I added a new business analysis that summarizes total sales by payment method. I created a new function named `sales_by_payment_method()` that groups sales by payment method, calculates the total sales for each payment type, and displays the results in an additional bar chart.
+
+### Why I Made the Change
+
+I wanted to expand the business analysis by providing another way to evaluate customer purchasing behavior. This modification demonstrates an additional data transformation and visualization while keeping the original functionality intact.
+
+### Results
+
+After running the project, the original visualizations were generated successfully, along with a new bar chart displaying total sales by payment method. The modification integrated with the existing workflow without affecting the original analyses.
+
+### Git Commit Message
+
+```text
+Add payment method sales analysis and visualization
+```
 ## Findings and Visuals
 
 Take screenshots of your charts and provide them here with a discussion.
@@ -192,6 +216,12 @@ In your custom project:
 - your figures and narrative should reflect your work
 - this `README.md` should include your commands, process, and visuals
 - `docs/index.md` should include your narrative
+
+### Discussion
+
+The data cleaning workflow successfully prepared the customer, product, and sales datasets by correcting invalid values, standardizing inconsistent data, and verifying relationships before saving the prepared files.
+
+For my technical modification, I added a payment method analysis that summarizes total sales by payment type and displays the results in an additional bar chart. This provides another business insight while demonstrating an additional data transformation and visualization.
 
 Replace these placeholders with screenshots from your own project run:
 
