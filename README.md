@@ -88,7 +88,7 @@ code .
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
+[pro-analytics-02 guide](https://brandon112123.github.io/pro-analytics-02/).
 
 ```shell
 uv self update
