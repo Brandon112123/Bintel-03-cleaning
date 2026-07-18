@@ -8,7 +8,7 @@
 
 [project]
 site_name = "Docs" # CUSTOM: Set the name that appears in the browser tab.
-site_url = "https://brandon112123.github.io/bintel-03-cleaning/"
+site_url = "https://brandon112123.github.io/Bintel-03-cleaning/"
 repo_url = "https://github.com/brandon112123/bintel-03-cleaning"
 repo_name = "bintel-03-cleaning"
 site_description = "Project Documentation" # CUSTOM: Set the description.

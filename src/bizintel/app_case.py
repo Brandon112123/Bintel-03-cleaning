@@ -1,6 +1,6 @@
 """app_case.py - example.
 
-An example of loading and visualizing raw business data.
+An example of loading and visualizing raw business data to.
 
 Author: Denise Case
 Date: 2026-06

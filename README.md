@@ -9,7 +9,7 @@
 ## Project Description
 
 This project focuses on cleaning raw business data and preparing it
-for the Extract, Transform, Verify, Load (ETVL) process.
+for the Extract, Transform, Verify, Load (ETVL) process
 
 We work with a realistic smart sales dataset containing
 customers, products, and sales records with intentional data quality issues.
@@ -88,7 +88,7 @@ code .
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://brandon112123.github.io/pro-analytics-02/).
+[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
 
 ```shell
 uv self update
